@@ -461,12 +461,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "07df0eafa6b5c4d970954421380f0cba8590c1bd"
+                "reference": "a4fb4d36fa9f86f19f8ce7743025e9d6c43fa79b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/07df0eafa6b5c4d970954421380f0cba8590c1bd",
-                "reference": "07df0eafa6b5c4d970954421380f0cba8590c1bd",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/a4fb4d36fa9f86f19f8ce7743025e9d6c43fa79b",
+                "reference": "a4fb4d36fa9f86f19f8ce7743025e9d6c43fa79b",
                 "shasum": ""
             },
             "require": {
@@ -512,7 +512,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/4.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2017-05-10 15:45:18"
+            "time": "2017-05-11 17:19:38"
         },
         {
             "name": "md/rss-display",
@@ -2196,12 +2196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/UndefinedOffset/SortableGridField.git",
-                "reference": "1750b7b45a3b140cbcdac76707c17fc98eb8e99c"
+                "reference": "2d8cd6540f2c948cbe0c8f73adab7fd9e2aec803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/1750b7b45a3b140cbcdac76707c17fc98eb8e99c",
-                "reference": "1750b7b45a3b140cbcdac76707c17fc98eb8e99c",
+                "url": "https://api.github.com/repos/UndefinedOffset/SortableGridField/zipball/2d8cd6540f2c948cbe0c8f73adab7fd9e2aec803",
+                "reference": "2d8cd6540f2c948cbe0c8f73adab7fd9e2aec803",
                 "shasum": ""
             },
             "require": {
@@ -2228,7 +2228,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2017-04-21 12:32:43"
+            "time": "2017-05-11 15:17:40"
         },
         {
             "name": "unisolutions/silverstripe-copybutton",
