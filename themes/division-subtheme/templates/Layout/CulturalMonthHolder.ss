@@ -30,7 +30,7 @@ $BlockArea(BeforeContent)
 			<% if $Children %>
 				<section class="childpages" aria-labelledby="ChildPages">
 				<h2 class="show-for-sr" id="ChildPages">Related Navigation</h2>
-				<% loop $sortedMonths %>
+				<% loop $Children %>
 					<div class="childpages__page <% if $BackgroundImage || $YoutubeBackgroundEmbed %>childpages--withphoto<% end_if %>">
 						<a href="$Link" class="childpages__blocklink">
 							<% if $BackgroundImage %>

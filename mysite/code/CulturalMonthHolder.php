@@ -34,7 +34,7 @@ class CulturalMonthHolder extends Page {
 		}
 		
 	}
-	public function sortedMonths() {
+	public function Children() {
 
 		$children = CulturalMonth::get();
 		$clonedChildren = new ArrayList();
