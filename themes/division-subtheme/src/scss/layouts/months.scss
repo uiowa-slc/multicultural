@@ -1,0 +1,25 @@
+.month-grid{
+	padding: rem-calc(30) 0;
+
+	&__link{
+		margin: rem-calc(20) 0;
+	}
+	&__header{
+		margin-top: 0;
+		margin-bottom: rem-calc(5);
+		font-size: rem-calc(26);
+		color: white;
+	}
+
+	&__content{
+		background: #333;
+		color: white;
+		padding: rem-calc(20);
+	}
+
+	&__img{
+		width: 100%;
+		display: block;
+	}
+
+}

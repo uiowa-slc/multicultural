@@ -55,6 +55,10 @@ class CulturalMonth_Controller extends Page_Controller {
 
 		if (isset($this->EventTag)) {
 			$calendar = LocalistCalendar::get()->First();
+
+			if(!$calendar){
+				$calendar = LocalistCalendar::create();
+			}
 			$term = $this->EventTag;
 
 			$termFiltered = urlencode($term);
