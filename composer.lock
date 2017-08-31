@@ -85,7 +85,7 @@
         },
         {
             "name": "composer/installers",
-            "version": "dev-master",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
@@ -198,7 +198,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-08-09 07:53:48"
+            "time": "2017-08-09T07:53:48+00:00"
         },
         {
             "name": "embed/embed",
@@ -513,12 +513,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "4b417a98e9f00b6579d16bb83b5b2e0e7d84f893"
+                "reference": "a2bf7583b829468243d5cdc95a492daa8420cbdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/4b417a98e9f00b6579d16bb83b5b2e0e7d84f893",
-                "reference": "4b417a98e9f00b6579d16bb83b5b2e0e7d84f893",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/a2bf7583b829468243d5cdc95a492daa8420cbdf",
+                "reference": "a2bf7583b829468243d5cdc95a492daa8420cbdf",
                 "shasum": ""
             },
             "require": {
@@ -563,10 +563,10 @@
             "type": "silverstripe-module",
             "description": "The University of Iowa Division of Student Life Project Code and Theme",
             "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/events-block",
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2017-08-31 21:37:33"
+            "time": "2017-08-31 21:53:35"
         },
         {
             "name": "md/rss-display",
