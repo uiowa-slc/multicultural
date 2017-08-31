@@ -32,7 +32,7 @@ $Header
 				<img class="month-grid__img" src="{$BackgroundImage.FocusFill(410,214).URL}" alt="" role="presentation" />
 				<div class="month-grid__content">
 					<h2 class="month-grid__header">$Title</h2>
-					<p class="month-grid__summary">$Content.LimitCharacters(50)</p>
+					<p class="month-grid__summary">$Content.FirstParagraph.LimitCharacters(50)</p>
 				</div>
 			</a>
 		<% end_loop %>
