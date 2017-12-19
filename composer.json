@@ -21,7 +21,17 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics"
+      
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/StudentLifeMarketingAndDesign/division-bar"
+
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-amp"
 
         },
         {
@@ -47,6 +57,8 @@
              "type": "vcs",
              "url": "https://github.com/StudentLifeMarketingAndDesign/fbpagefeed"
         }
-    ]
-
+    ],
+	"require-dev": {
+		"lekoala/silverstripe-debugbar": "1.x-dev"
+	}
 }
