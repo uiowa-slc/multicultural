@@ -3787,12 +3787,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "87426fa24619cd5a232807b1b95c1f8449f8aa11"
+                "reference": "472a9849930cf21f73abdb02240f17cf5b5bd1a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/87426fa24619cd5a232807b1b95c1f8449f8aa11",
-                "reference": "87426fa24619cd5a232807b1b95c1f8449f8aa11",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/472a9849930cf21f73abdb02240f17cf5b5bd1a7",
+                "reference": "472a9849930cf21f73abdb02240f17cf5b5bd1a7",
                 "shasum": ""
             },
             "require": {
@@ -3848,7 +3848,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2018-01-10 11:30:01"
+            "time": "2018-01-29T09:03:43+00:00"
         }
     ],
     "aliases": [],
