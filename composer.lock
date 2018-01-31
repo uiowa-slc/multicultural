@@ -838,12 +838,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
-                "reference": "1583604cd24db9951bcd27c8ae72db8b53c01571"
+                "reference": "b13c31226af0ed2e8355d31ae6a2eac820f923bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/1583604cd24db9951bcd27c8ae72db8b53c01571",
-                "reference": "1583604cd24db9951bcd27c8ae72db8b53c01571",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/b13c31226af0ed2e8355d31ae6a2eac820f923bb",
+                "reference": "b13c31226af0ed2e8355d31ae6a2eac820f923bb",
                 "shasum": ""
             },
             "require": {
@@ -862,7 +862,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
             },
-            "time": "2017-10-12 21:40:31"
+            "time": "2018-01-31 16:16:28"
         },
         {
             "name": "md/division-analytics",
@@ -897,12 +897,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "f7c37b74d7b087bf6d1ea34c8c6e4810152010a3"
+                "reference": "79e896f85bb26c81be50b1e4b8747d433352bce9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/f7c37b74d7b087bf6d1ea34c8c6e4810152010a3",
-                "reference": "f7c37b74d7b087bf6d1ea34c8c6e4810152010a3",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/79e896f85bb26c81be50b1e4b8747d433352bce9",
+                "reference": "79e896f85bb26c81be50b1e4b8747d433352bce9",
                 "shasum": ""
             },
             "require": {
@@ -954,7 +954,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.0.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-01-25 16:54:17"
+            "time": "2018-01-31 19:15:03"
         },
         {
             "name": "md/rss-display",
@@ -3126,16 +3126,16 @@
         },
         {
             "name": "unclecheese/eventcalendar",
-            "version": "1.0.23",
+            "version": "1.0.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-event-calendar.git",
-                "reference": "18e246239db9163d84884a577e137684a5102f0e"
+                "reference": "13c151c8fd011a98c131471cb21310124a264785"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-event-calendar/zipball/18e246239db9163d84884a577e137684a5102f0e",
-                "reference": "18e246239db9163d84884a577e137684a5102f0e",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-event-calendar/zipball/13c151c8fd011a98c131471cb21310124a264785",
+                "reference": "13c151c8fd011a98c131471cb21310124a264785",
                 "shasum": ""
             },
             "require": {
@@ -3166,7 +3166,7 @@
                 "events",
                 "silverstripe"
             ],
-            "time": "2017-05-30T02:20:42+00:00"
+            "time": "2018-01-29T22:29:29+00:00"
         },
         {
             "name": "undefinedoffset/silverstripe-nocaptcha",
@@ -3728,12 +3728,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "750a2b259dd68436e3b918a4241e80b023a80663"
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/750a2b259dd68436e3b918a4241e80b023a80663",
-                "reference": "750a2b259dd68436e3b918a4241e80b023a80663",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/78be803ce01e55d3491c1397cf1c64beb9c1b63b",
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b",
                 "shasum": ""
             },
             "require": {
@@ -3745,7 +3745,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -3779,7 +3779,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-12-17 16:08:10"
+            "time": "2018-01-30 19:27:44"
         },
         {
             "name": "symfony/var-dumper",
@@ -3787,12 +3787,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "472a9849930cf21f73abdb02240f17cf5b5bd1a7"
+                "reference": "7b915b7bc01669f0787637230aa7c21d0f47c498"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/472a9849930cf21f73abdb02240f17cf5b5bd1a7",
-                "reference": "472a9849930cf21f73abdb02240f17cf5b5bd1a7",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/7b915b7bc01669f0787637230aa7c21d0f47c498",
+                "reference": "7b915b7bc01669f0787637230aa7c21d0f47c498",
                 "shasum": ""
             },
             "require": {
@@ -3848,7 +3848,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2018-01-29T09:03:43+00:00"
+            "time": "2018-01-31 10:38:55"
         }
     ],
     "aliases": [],
