@@ -1,5 +1,8 @@
 <?php
 
+use SilverStripe\ORM\ArrayList;
+use SilverStripe\ORM\FieldType\DBDate;
+
 class CulturalMonthHolder extends Page {
 
 	private static $db = array(
@@ -41,18 +44,15 @@ class CulturalMonthHolder extends Page {
 		$clonedChildrenPassed = new ArrayList();
 		$newClonedChildren = new ArrayList();
 		$now = date('Y-m-d');
-		//$now = '2017-11-03';
 
 		foreach ($children as $child) {
-			$cloneChild = $child->duplicate(false);
-
-			//setting the start date / end date proprety here.
-			$cloneChild->StartDate = new Date();
-			$cloneChild->StartDate->setValue(date('Y-m-d', strtotime($child->obj('RelativeStartDate', strtotime($now)))));
-			$cloneChild->EndDate = new Date();
-			$cloneChild->EndDate->setValue(date('Y-m-d', strtotime($child->obj('RelativeEndDate'), strtotime($now))));
-			$cloneChild->Original = $child;
-
+			$cloneChild = new CulturalMonth();
+			$cloneChild = $child;
+			$cloneChild->StartDate = DBDate::create();
+			$cloneChild->StartDate = $child->RelativeStartDate;
+			$cloneChild->EndDate = DBDate::create();
+			$cloneChild->EndDate = $child->RelativeEndDate;
+			//print_r($cloneChild->StartDate);
 
 			if ($cloneChild->EndDate < $now) {
 				$clonedChildrenPassed->add($cloneChild);
@@ -68,14 +68,8 @@ class CulturalMonthHolder extends Page {
 			$newClonedChildren->push($clone);
 		}
 
-		//print_r($newClonedChildren);
-
 		return $newClonedChildren;
 	}
 
-
-}
-
-class CulturalMonthHolder_Controller extends Page_Controller {
 
 }
