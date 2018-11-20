@@ -35,41 +35,44 @@ class CulturalMonthHolder extends Page {
 		}else{
 			return false;
 		}
-		
+
 	}
-	public function Children() {
+public function Children() {
 
-		$children = CulturalMonth::get();
-		$clonedChildren = new ArrayList();
-		$clonedChildrenPassed = new ArrayList();
-		$newClonedChildren = new ArrayList();
-		$now = date('Y-m-d');
+        $children = CulturalMonth::get();
+        $clonedChildren = new ArrayList();
+        $clonedChildrenPassed = new ArrayList();
+        $newClonedChildren = new ArrayList();
+        $now = date('Y-m-d');
 
-		foreach ($children as $child) {
-			$cloneChild = new CulturalMonth();
-			$cloneChild = $child;
-			$cloneChild->StartDate = DBDate::create();
-			$cloneChild->StartDate = $child->RelativeStartDate;
-			$cloneChild->EndDate = DBDate::create();
-			$cloneChild->EndDate = $child->RelativeEndDate;
-			//print_r($cloneChild->StartDate);
+        foreach ($children as $child) {
+            $cloneChild = new CulturalMonth();
+            $cloneChild->Title = $child->Title;
+            $cloneChild->Content = $child->Content;
+            $cloneChild->BackgroundImage = $child->BackgroundImage;
+            $cloneChild->URLSegment = $child->URLSegment;
 
-			if ($cloneChild->EndDate < $now) {
-				$clonedChildrenPassed->add($cloneChild);
-			} else {
-				$clonedChildren->add($cloneChild);
-			}
-		}
+            $cloneChild->StartDate = DBDate::create();
+            $cloneChild->StartDate = date('Y-m-d', strtotime($child->obj('RelativeStartDate', strtotime($now))));
+            $cloneChild->EndDate = DBDate::create();
+            $cloneChild->EndDate = date('Y-m-d', strtotime($child->obj('RelativeEndDate'), strtotime($now)));            //print_r($cloneChild->StartDate);
 
-		$newClonedChildren = $clonedChildren->sort('StartDate');
-		$clonedChildrenPassed = $clonedChildrenPassed->sort('StartDate');
+            if ($cloneChild->EndDate < $now) {
+                $clonedChildrenPassed->add($cloneChild);
+            } else {
+                $clonedChildren->add($cloneChild);
+            }
+        }
 
-		foreach ($clonedChildrenPassed as $clone) {
-			$newClonedChildren->push($clone);
-		}
+        $newClonedChildren = $clonedChildren->sort('StartDate');
+        $clonedChildrenPassed = $clonedChildrenPassed->sort('StartDate');
 
-		return $newClonedChildren;
-	}
+        foreach ($clonedChildrenPassed as $clone) {
+            $newClonedChildren->push($clone);
+        }
 
+       return $newClonedChildren;
+        //return $clonedChildrenPassed;
+    }
 
 }

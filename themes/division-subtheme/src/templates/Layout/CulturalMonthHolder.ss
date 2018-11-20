@@ -6,7 +6,7 @@ $Header
 		<% include FeaturedImage %>
 	<% end_if %>
 	$Breadcrumbs
-	
+
 	<% if not $BackgroundImage %>
 		<div class="column row">
 			<div class="main-content__header">
@@ -15,17 +15,17 @@ $Header
 		</div>
 	<% end_if %>
 
-	$BlockArea(BeforeContent)
+	$BeforeContent
 	<div class="row">
 		<article role="main" class="main-content main-content--with-padding <% if $SiteConfig.ShowExitButton %>main-content--with-exit-button-padding<% end_if %> <% if $Children || $Menu(2) || $SidebarBlocks ||  $SidebarView.Widgets %>main-content--with-sidebar<% else %>main-content--full-width<% end_if %>">
-			$BlockArea(BeforeContentConstrained)
+			$BeforeContentConstrained
 			<div class="main-content__text">
 				$Content
 			</div>
-			$BlockArea(AfterContentConstrained)
+			$AfterContentConstrained
 			$Form
 		</article>
-	</div> 
+	</div>
 	<div class="month-grid expanded row small-up-1 medium-up-2 large-up-3 ">
 		<% loop $Children %>
 			<a class="column month-grid__link" href="$Link">
@@ -38,6 +38,6 @@ $Header
 		<% end_loop %>
 	</div>
 
-	$BlockArea(AfterContent)
+	$AfterContent
 
 </main>

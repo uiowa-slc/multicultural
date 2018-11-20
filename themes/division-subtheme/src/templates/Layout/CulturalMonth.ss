@@ -7,17 +7,17 @@ $Header
 	<% end_if %>
 	$Breadcrumbs
 
-	$BlockArea(BeforeContent)
+	$BeforeContent
 
 	<div class="row">
 
 		<article role="main" class="main-content main-content--with-padding <% if $SiteConfig.ShowExitButton %>main-content--with-exit-button-padding<% end_if %> <% if $Children || $Menu(2) || $SidebarBlocks ||  $SidebarView.Widgets %>main-content--with-sidebar<% else %>main-content--full-width<% end_if %>">
-			$BlockArea(BeforeContentConstrained)
+			$BeforeContentConstrained
 			<div class="main-content__text">
 				<h1>About $Title</h1>
 				$Content
 			</div>
-			$BlockArea(AfterContentConstrained)
+			$AfterContentConstrained
 			$Form
 			<% if $ShowChildPages %>
 				<% include ChildPages %>
@@ -28,9 +28,9 @@ $Header
 			<% if $SideBarView %>
 				$SideBarView
 			<% end_if %>
-			$BlockArea(Sidebar)
+			$SidebarArea
 		</aside>
 	</div>
-	$BlockArea(AfterContent)
+	$AfterContent
 
 </main>

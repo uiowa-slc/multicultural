@@ -24,8 +24,6 @@ class CulturalMonth extends Page {
 	public function getCMSFields() {
 
 		$f = parent::getCMSFields();
-		$f->addFieldToTab("Root.Main", new TextField("EventTag", "Event Type ID Number", "Content"));
-		$f->addFieldToTab("Root.Main", new TextField("EventTagTitle", "Event Type Title", "Content"));
 		$startDateField = DateField::create('StartDate');
 		$endDateField = DateField::create('EndDate');
 		$f->addFieldToTab("Root.Main", new TextField("RelativeStartDate", "Relative Start Date", "Content"));
