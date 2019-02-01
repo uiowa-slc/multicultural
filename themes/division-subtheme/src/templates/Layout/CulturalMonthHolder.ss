@@ -27,7 +27,7 @@ $Header
 		</article>
 	</div>
 	<div class="month-grid expanded row small-up-1 medium-up-2 large-up-3 ">
-		<% loop $Children %>
+		<% loop $SortedChildren %>
 			<a class="column month-grid__link" href="$Link">
 				<img class="month-grid__img" src="{$BackgroundImage.FocusFill(410,214).URL}" alt="" role="presentation" />
 				<div class="month-grid__content">
