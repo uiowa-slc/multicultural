@@ -1296,12 +1296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "5abbf2a3b8066d27db7b1936b9d7536455421cfd"
+                "reference": "140d153a9fa434fa6ad5201138ab5374548f3e28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/5abbf2a3b8066d27db7b1936b9d7536455421cfd",
-                "reference": "5abbf2a3b8066d27db7b1936b9d7536455421cfd",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/140d153a9fa434fa6ad5201138ab5374548f3e28",
+                "reference": "140d153a9fa434fa6ad5201138ab5374548f3e28",
                 "shasum": ""
             },
             "require": {
@@ -1347,7 +1347,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.x-add-staff-pronoun",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2020-02-10T21:59:42+00:00"
+            "time": "2020-02-10T22:13:55+00:00"
         },
         {
             "name": "md/saml",
