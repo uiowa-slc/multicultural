@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f3635b825c18b7c5292e6dab26fd4fb",
+    "content-hash": "b44076612d00aec41aa6eb9c34cd5433",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -1314,12 +1314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "c495ca2b4c78cf3f6e4b6d89c770f7f7b05d696c"
+                "reference": "c75a943a5b8ff3e5c0e83f5f2abc0fbe5548b43f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/c495ca2b4c78cf3f6e4b6d89c770f7f7b05d696c",
-                "reference": "c495ca2b4c78cf3f6e4b6d89c770f7f7b05d696c",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/c75a943a5b8ff3e5c0e83f5f2abc0fbe5548b43f",
+                "reference": "c75a943a5b8ff3e5c0e83f5f2abc0fbe5548b43f",
                 "shasum": ""
             },
             "require": {
@@ -1367,7 +1367,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2-branding",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2020-09-18T15:23:22+00:00"
+            "time": "2020-09-25T14:32:36+00:00"
         },
         {
             "name": "md/saml",
@@ -1617,16 +1617,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.9.1",
+            "version": "v4.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "88e519766fc58bd46b8265561fb79b54e2e00b28"
+                "reference": "1b479e7592812411c20c34d9ed33db3957bde66e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/88e519766fc58bd46b8265561fb79b54e2e00b28",
-                "reference": "88e519766fc58bd46b8265561fb79b54e2e00b28",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/1b479e7592812411c20c34d9ed33db3957bde66e",
+                "reference": "1b479e7592812411c20c34d9ed33db3957bde66e",
                 "shasum": ""
             },
             "require": {
@@ -1665,7 +1665,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-08-30T16:15:20+00:00"
+            "time": "2020-09-23T18:23:49+00:00"
         },
         {
             "name": "onelogin/php-saml",
@@ -2794,16 +2794,16 @@
         },
         {
             "name": "silverstripe/googlesitemaps",
-            "version": "2.1.6",
+            "version": "2.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wilr/silverstripe-googlesitemaps.git",
-                "reference": "982d96c2036b7598f3d9ceab717bd3699a6baae6"
+                "reference": "17b21683a2083d698cdd1973bb7525094697aee7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wilr/silverstripe-googlesitemaps/zipball/982d96c2036b7598f3d9ceab717bd3699a6baae6",
-                "reference": "982d96c2036b7598f3d9ceab717bd3699a6baae6",
+                "url": "https://api.github.com/repos/wilr/silverstripe-googlesitemaps/zipball/17b21683a2083d698cdd1973bb7525094697aee7",
+                "reference": "17b21683a2083d698cdd1973bb7525094697aee7",
                 "shasum": ""
             },
             "require": {
@@ -2849,7 +2849,7 @@
                 "seo",
                 "silverstripe"
             ],
-            "time": "2020-06-02T20:36:14+00:00"
+            "time": "2020-09-10T18:23:40+00:00"
         },
         {
             "name": "silverstripe/graphql",
@@ -3502,16 +3502,16 @@
         },
         {
             "name": "silverstripe/userforms",
-            "version": "5.6.2",
+            "version": "5.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "162319512b218c2cfb8dc7b8ce92a2dbe5c54aad"
+                "reference": "347cfe6101d25ff19b510b33b15dd6c45b2e7a40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/162319512b218c2cfb8dc7b8ce92a2dbe5c54aad",
-                "reference": "162319512b218c2cfb8dc7b8ce92a2dbe5c54aad",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/347cfe6101d25ff19b510b33b15dd6c45b2e7a40",
+                "reference": "347cfe6101d25ff19b510b33b15dd6c45b2e7a40",
                 "shasum": ""
             },
             "require": {
@@ -3576,7 +3576,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2020-09-02T01:47:09+00:00"
+            "time": "2020-09-16T00:26:47+00:00"
         },
         {
             "name": "silverstripe/vendor-plugin",
