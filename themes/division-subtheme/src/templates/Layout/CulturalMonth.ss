@@ -15,7 +15,7 @@ $Header
         </div>
     </div>
     <div class="small-12 large-7 columns">
-        <img class="month__img" src="$BackgroundImage.URL" alt="" role="presentation" />
+        <img class="month__img" src="$BackgroundImage.ScaleWidth(1080).URL" alt="" role="presentation" />
     </div>
 </div>
 <% end_if %>

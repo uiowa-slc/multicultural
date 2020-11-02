@@ -1,4 +1,4 @@
-$Header<main class="main-content__container" id="main-content__container"> <% if $BackgroundImage %> <div class="row"><div class="small-12 large-5 columns"><div class="main-content__header">$Breadcrumbs<h1>$Title</h1></div><div class="main-content__text" style="margin-top: 20px;">$Content</div></div><div class="small-12 large-7 columns"><img class="month__img" src="$BackgroundImage.URL" alt="" role="presentation"></div></div> <% end_if %> <%--
+$Header<main class="main-content__container" id="main-content__container"> <% if $BackgroundImage %> <div class="row"><div class="small-12 large-5 columns"><div class="main-content__header">$Breadcrumbs<h1>$Title</h1></div><div class="main-content__text" style="margin-top: 20px;">$Content</div></div><div class="small-12 large-7 columns"><img class="month__img" src="$BackgroundImage.ScaleWidth(1080).URL" alt="" role="presentation"></div></div> <% end_if %> <%--
     <div class="column row">
         <div class="main-content__header">
             $Breadcrumbs

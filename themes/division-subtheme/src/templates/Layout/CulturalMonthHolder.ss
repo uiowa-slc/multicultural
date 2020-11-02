@@ -30,7 +30,7 @@ $Header
 	<div class="month-grid expanded row small-up-1 medium-up-2 large-up-3 ">
 		<% loop $SortedChildren %>
 			<a class="column month-grid__link" href="$Link">
-				<img class="month-grid__img" src="{$BackgroundImage.ScaleWidth(720).URL}" alt="" role="presentation" />
+				<img class="month-grid__img" src="{$BackgroundImage.Pad(1280,720).URL}" alt="" role="presentation" />
 				<div class="month-grid__content">
 					<h2 class="month-grid__header">$Title</h2>
                     <% if $MetaDescription %>
