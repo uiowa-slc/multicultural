@@ -1314,12 +1314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "3ec57c6c6e83b0aace58ffd09a3434dbcfc29ce4"
+                "reference": "403b9ef46fab218fd34a5dc0334bbeab7c20b001"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/3ec57c6c6e83b0aace58ffd09a3434dbcfc29ce4",
-                "reference": "3ec57c6c6e83b0aace58ffd09a3434dbcfc29ce4",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/403b9ef46fab218fd34a5dc0334bbeab7c20b001",
+                "reference": "403b9ef46fab218fd34a5dc0334bbeab7c20b001",
                 "shasum": ""
             },
             "require": {
@@ -1365,10 +1365,10 @@
             },
             "description": "The University of Iowa Division of Student Life Project Code and Theme",
             "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2-branding",
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2020-11-02T17:05:03+00:00"
+            "time": "2020-11-02T19:02:13+00:00"
         },
         {
             "name": "md/saml",
