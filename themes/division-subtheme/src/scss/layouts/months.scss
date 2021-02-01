@@ -40,11 +40,12 @@
         display: block;
         width: 100%;
 
-        box-shadow: 4px 3px 40px rgba(17, 17, 17, 0.44);
+        //box-shadow: 4px 3px 40px rgba(17, 17, 17, 0.44);
 
         @include breakpoint(large) {
-            margin-left: rem-calc(20);
-            margin-top: rem-calc(40);
+            // margin-left: rem-calc(20);
+            // margin-top: rem-calc(40);
+
         }
     }
 }
